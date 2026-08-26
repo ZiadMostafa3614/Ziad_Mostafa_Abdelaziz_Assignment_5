@@ -1,0 +1,93 @@
+# vsim top_opt "+UVM_VERBOSITY=UVM_MEDIUM" -l sim_uvm_medium.log 
+# Start time: 13:52:04 on Aug 26,2026
+# Loading sv_std.std
+# Loading work.router_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.router_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top(fast)
+# Loading work.router_if(fast__2)
+# Loading work.router(fast)
+# Loading C:/questasim64_2021.1/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test router_test...
+# UVM_INFO router_test.sv(20) @ 0: uvm_test_top [router_test] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_test.sv(21) @ 0: uvm_test_top [router_test] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_env.sv(22) @ 0: uvm_test_top.env [router_env] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_env.sv(23) @ 0: uvm_test_top.env [router_env] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_agent.sv(22) @ 0: uvm_test_top.env.agent [router_agent] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_agent.sv(23) @ 0: uvm_test_top.env.agent [router_agent] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_agent.sv(35) @ 0: uvm_test_top.env.agent [router_agent] Agent configured mode: is_active = UVM_ACTIVE
+# UVM_INFO router_driver.sv(19) @ 0: uvm_test_top.env.agent.driver [router_driver] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_driver.sv(20) @ 0: uvm_test_top.env.agent.driver [router_driver] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_monitor.sv(20) @ 0: uvm_test_top.env.agent.monitor [router_monitor] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_monitor.sv(21) @ 0: uvm_test_top.env.agent.monitor [router_monitor] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_sequencer.sv(17) @ 0: uvm_test_top.env.agent.sequencer [router_sequencer] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_sequencer.sv(18) @ 0: uvm_test_top.env.agent.sequencer [router_sequencer] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_coverage.sv(74) @ 0: uvm_test_top.env.cov [router_coverage] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_coverage.sv(75) @ 0: uvm_test_top.env.cov [router_coverage] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_scoreboard.sv(22) @ 0: uvm_test_top.env.sb [router_scoreboard] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_scoreboard.sv(23) @ 0: uvm_test_top.env.sb [router_scoreboard] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_test.sv(42) @ 0: uvm_test_top [router_test] Executing router_test run_phase
+# UVM_INFO router_sequence.sv(29) @ 0: uvm_test_top.env.agent.sequencer@@seq [router_random_sequence] Starting router_random_sequence with 100 items
+# UVM_INFO router_sequence.sv(65) @ 1115000: uvm_test_top.env.agent.sequencer@@seq [router_random_sequence] Finished router_random_sequence execution
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 1215000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO router_coverage.sv(87) @ 1215000: uvm_test_top.env.cov [router_coverage] FUNCTIONAL COVERAGE: 100.00%
+# UVM_INFO router_scoreboard.sv(68) @ 1215000: uvm_test_top.env.sb [router_scoreboard] SCOREBOARD RESULT: PASS=236  FAIL=0
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   26
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [router_agent]     3
+# [router_coverage]     3
+# [router_driver]     2
+# [router_env]     2
+# [router_monitor]     2
+# [router_random_sequence]     2
+# [router_scoreboard]     3
+# [router_sequencer]     2
+# [router_test]     3
+# ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1215 ns  Iteration: 54  Instance: /top
+# Break in Task std/mailbox::get at C:/questasim64_2021.1/win64/../verilog_src/std/std.sv line 41
+# ** Error: Acs sdne.
+# ;
+#        Unable to replace existing ini file (E:/courses/Digital Verification Course/system verilog assignments/Assignment 5/UVM_1st_Assignment.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# d
+#        Unable to replace existing ini file (E:/courses/Digital Verification Course/system verilog assignments/Assignment 5/UVM_1st_Assignment.mpf).  File can not be renamed.
+# End time: 13:52:17 on Aug 26,2026, Elapsed time: 0:00:13
+# Errors: 2, Warnings: 1
+# =====================================================================
+# Executing RUN 3: +UVM_VERBOSITY=UVM_HIGH
+# =====================================================================

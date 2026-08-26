@@ -1,0 +1,479 @@
+# vsim top_opt "+UVM_VERBOSITY=UVM_FULL" -l sim_uvm_full.log 
+# Start time: 13:52:31 on Aug 26,2026
+# Loading sv_std.std
+# Loading work.router_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.router_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top(fast)
+# Loading work.router_if(fast__2)
+# Loading work.router(fast)
+# Loading C:/questasim64_2021.1/uvm-1.1d\win64\uvm_dpi.dll
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test router_test...
+# UVM_INFO router_test.sv(20) @ 0: uvm_test_top [router_test] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_test.sv(21) @ 0: uvm_test_top [router_test] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_test.sv(22) @ 0: uvm_test_top [router_test] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_test.sv(23) @ 0: uvm_test_top [router_test] Build Phase - UVM_FULL verbosity message
+# UVM_INFO router_env.sv(22) @ 0: uvm_test_top.env [router_env] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_env.sv(23) @ 0: uvm_test_top.env [router_env] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_env.sv(24) @ 0: uvm_test_top.env [router_env] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_env.sv(25) @ 0: uvm_test_top.env [router_env] Build Phase - UVM_FULL verbosity message
+# UVM_INFO router_agent.sv(22) @ 0: uvm_test_top.env.agent [router_agent] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_agent.sv(23) @ 0: uvm_test_top.env.agent [router_agent] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_agent.sv(24) @ 0: uvm_test_top.env.agent [router_agent] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_agent.sv(25) @ 0: uvm_test_top.env.agent [router_agent] Build Phase - UVM_FULL verbosity message
+# UVM_INFO router_agent.sv(35) @ 0: uvm_test_top.env.agent [router_agent] Agent configured mode: is_active = UVM_ACTIVE
+# UVM_INFO router_driver.sv(19) @ 0: uvm_test_top.env.agent.driver [router_driver] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_driver.sv(20) @ 0: uvm_test_top.env.agent.driver [router_driver] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_driver.sv(21) @ 0: uvm_test_top.env.agent.driver [router_driver] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_driver.sv(22) @ 0: uvm_test_top.env.agent.driver [router_driver] Build Phase - UVM_FULL verbosity message
+# UVM_INFO router_monitor.sv(20) @ 0: uvm_test_top.env.agent.monitor [router_monitor] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_monitor.sv(21) @ 0: uvm_test_top.env.agent.monitor [router_monitor] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_monitor.sv(22) @ 0: uvm_test_top.env.agent.monitor [router_monitor] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_monitor.sv(23) @ 0: uvm_test_top.env.agent.monitor [router_monitor] Build Phase - UVM_FULL verbosity message
+# UVM_INFO router_sequencer.sv(17) @ 0: uvm_test_top.env.agent.sequencer [router_sequencer] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_sequencer.sv(18) @ 0: uvm_test_top.env.agent.sequencer [router_sequencer] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_sequencer.sv(19) @ 0: uvm_test_top.env.agent.sequencer [router_sequencer] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_sequencer.sv(20) @ 0: uvm_test_top.env.agent.sequencer [router_sequencer] Build Phase - UVM_FULL verbosity message
+# UVM_INFO router_coverage.sv(74) @ 0: uvm_test_top.env.cov [router_coverage] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_coverage.sv(75) @ 0: uvm_test_top.env.cov [router_coverage] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_coverage.sv(76) @ 0: uvm_test_top.env.cov [router_coverage] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_coverage.sv(77) @ 0: uvm_test_top.env.cov [router_coverage] Build Phase - UVM_FULL verbosity message
+# UVM_INFO router_scoreboard.sv(22) @ 0: uvm_test_top.env.sb [router_scoreboard] Build Phase - UVM_LOW verbosity message
+# UVM_INFO router_scoreboard.sv(23) @ 0: uvm_test_top.env.sb [router_scoreboard] Build Phase - UVM_MEDIUM verbosity message
+# UVM_INFO router_scoreboard.sv(24) @ 0: uvm_test_top.env.sb [router_scoreboard] Build Phase - UVM_HIGH verbosity message
+# UVM_INFO router_scoreboard.sv(25) @ 0: uvm_test_top.env.sb [router_scoreboard] Build Phase - UVM_FULL verbosity message
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(339) @ 0: reporter [Questa UVM] End Of Elaboration
+# UVM_INFO router_test.sv(42) @ 0: uvm_test_top [router_test] Executing router_test run_phase
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'run'
+# UVM_INFO router_sequence.sv(29) @ 0: uvm_test_top.env.agent.sequencer@@seq [router_random_sequence] Starting router_random_sequence with 100 items
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_reset'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_configure'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_main'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'main'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_main'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'pre_shutdown'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'shutdown'
+# UVM_INFO verilog_src/uvm-1.1d/src/seq/uvm_sequencer_base.svh(1384) @ 0: uvm_test_top.env.agent.sequencer [PHASESEQ] No default phase sequence for phase 'post_shutdown'
+# UVM_INFO router_monitor.sv(58) @ 35000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x84 | v1=0 d1=0xa2 | v2=0 d2=0x9a | v3=0 d3=0x6e] OUT:[v0=0 d0=0x9a | v1=0 d1=0x6e]
+# UVM_INFO router_scoreboard.sv(52) @ 35000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0x9a]
+# UVM_INFO router_scoreboard.sv(62) @ 35000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x6e]
+# UVM_INFO router_monitor.sv(58) @ 45000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xa1 | v1=0 d1=0x0 | v2=0 d2=0xe6 | v3=0 d3=0x9b] OUT:[v0=1 d0=0xa1 | v1=0 d1=0x9b]
+# UVM_INFO router_scoreboard.sv(52) @ 45000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa1]
+# UVM_INFO router_scoreboard.sv(62) @ 45000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x9b]
+# UVM_INFO router_monitor.sv(58) @ 55000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x24 | v1=0 d1=0x22 | v2=1 d2=0xb2 | v3=0 d3=0x30] OUT:[v0=1 d0=0xb2 | v1=0 d1=0x30]
+# UVM_INFO router_scoreboard.sv(52) @ 55000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xb2]
+# UVM_INFO router_scoreboard.sv(62) @ 55000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x30]
+# UVM_INFO router_monitor.sv(58) @ 65000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xc8 | v1=1 d1=0xc3 | v2=0 d2=0xd9 | v3=0 d3=0xfb] OUT:[v0=0 d0=0xd9 | v1=1 d1=0xc3]
+# UVM_INFO router_scoreboard.sv(52) @ 65000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0xd9]
+# UVM_INFO router_scoreboard.sv(62) @ 65000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xc3]
+# UVM_INFO router_monitor.sv(58) @ 75000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xac | v1=0 d1=0xaa | v2=0 d2=0xb5 | v3=1 d3=0xd4] OUT:[v0=0 d0=0xb5 | v1=1 d1=0xd4]
+# UVM_INFO router_scoreboard.sv(52) @ 75000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0xb5]
+# UVM_INFO router_scoreboard.sv(62) @ 75000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xd4]
+# UVM_INFO router_monitor.sv(58) @ 85000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xe5 | v1=0 d1=0xfb | v2=1 d2=0xe6 | v3=0 d3=0x2] OUT:[v0=1 d0=0xe5 | v1=0 d1=0x2]
+# UVM_INFO router_scoreboard.sv(52) @ 85000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xe5]
+# UVM_INFO router_scoreboard.sv(62) @ 85000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x2]
+# UVM_INFO router_monitor.sv(58) @ 95000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x1d | v1=1 d1=0xf7 | v2=0 d2=0xfc | v3=1 d3=0xf8] OUT:[v0=0 d0=0xfc | v1=1 d1=0xf7]
+# UVM_INFO router_scoreboard.sv(52) @ 95000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0xfc]
+# UVM_INFO router_scoreboard.sv(62) @ 95000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xf7]
+# UVM_INFO router_monitor.sv(58) @ 105000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x0 | v1=1 d1=0x0 | v2=1 d2=0x0 | v3=1 d3=0x0] OUT:[v0=1 d0=0x0 | v1=1 d1=0x0]
+# UVM_INFO router_scoreboard.sv(52) @ 105000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x0]
+# UVM_INFO router_scoreboard.sv(62) @ 105000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x0]
+# UVM_INFO router_monitor.sv(58) @ 115000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xff | v1=1 d1=0xff | v2=1 d2=0xff | v3=1 d3=0xff] OUT:[v0=1 d0=0xff | v1=1 d1=0xff]
+# UVM_INFO router_scoreboard.sv(52) @ 115000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xff]
+# UVM_INFO router_scoreboard.sv(62) @ 115000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xff]
+# UVM_INFO router_monitor.sv(58) @ 125000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x3b | v1=1 d1=0x62 | v2=1 d2=0xcc | v3=0 d3=0x20] OUT:[v0=1 d0=0x3b | v1=1 d1=0x62]
+# UVM_INFO router_scoreboard.sv(52) @ 125000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x3b]
+# UVM_INFO router_scoreboard.sv(62) @ 125000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x62]
+# UVM_INFO router_monitor.sv(58) @ 135000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xe3 | v1=0 d1=0x9f | v2=0 d2=0x1d | v3=1 d3=0xdf] OUT:[v0=1 d0=0xe3 | v1=1 d1=0xdf]
+# UVM_INFO router_scoreboard.sv(52) @ 135000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xe3]
+# UVM_INFO router_scoreboard.sv(62) @ 135000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xdf]
+# UVM_INFO router_monitor.sv(58) @ 145000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xe2 | v1=0 d1=0xe5 | v2=1 d2=0xc2 | v3=1 d3=0x2c] OUT:[v0=1 d0=0xc2 | v1=1 d1=0x2c]
+# UVM_INFO router_scoreboard.sv(52) @ 145000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xc2]
+# UVM_INFO router_scoreboard.sv(62) @ 145000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x2c]
+# UVM_INFO router_monitor.sv(58) @ 155000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xbb | v1=1 d1=0x40 | v2=1 d2=0xf5 | v3=0 d3=0xce] OUT:[v0=1 d0=0xbb | v1=1 d1=0x40]
+# UVM_INFO router_scoreboard.sv(52) @ 155000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xbb]
+# UVM_INFO router_scoreboard.sv(62) @ 155000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x40]
+# UVM_INFO router_monitor.sv(58) @ 165000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x82 | v1=0 d1=0x9e | v2=1 d2=0xd0 | v3=1 d3=0x21] OUT:[v0=1 d0=0x82 | v1=1 d1=0x21]
+# UVM_INFO router_scoreboard.sv(52) @ 165000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x82]
+# UVM_INFO router_scoreboard.sv(62) @ 165000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x21]
+# UVM_INFO router_monitor.sv(58) @ 175000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xad | v1=1 d1=0xda | v2=0 d2=0xf4 | v3=1 d3=0xbe] OUT:[v0=1 d0=0xad | v1=1 d1=0xda]
+# UVM_INFO router_scoreboard.sv(52) @ 175000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xad]
+# UVM_INFO router_scoreboard.sv(62) @ 175000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xda]
+# UVM_INFO router_monitor.sv(58) @ 185000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x2a | v1=1 d1=0xd1 | v2=1 d2=0x68 | v3=0 d3=0xff] OUT:[v0=1 d0=0x2a | v1=1 d1=0xd1]
+# UVM_INFO router_scoreboard.sv(52) @ 185000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x2a]
+# UVM_INFO router_scoreboard.sv(62) @ 185000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xd1]
+# UVM_INFO router_monitor.sv(58) @ 195000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x4f | v1=1 d1=0xb7 | v2=1 d2=0x5e | v3=1 d3=0xf4] OUT:[v0=1 d0=0x5e | v1=1 d1=0xb7]
+# UVM_INFO router_scoreboard.sv(52) @ 195000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5e]
+# UVM_INFO router_scoreboard.sv(62) @ 195000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xb7]
+# UVM_INFO router_monitor.sv(58) @ 205000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x5f | v1=1 d1=0x46 | v2=1 d2=0x38 | v3=1 d3=0x10] OUT:[v0=1 d0=0x5f | v1=1 d1=0x46]
+# UVM_INFO router_scoreboard.sv(52) @ 205000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5f]
+# UVM_INFO router_scoreboard.sv(62) @ 205000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x46]
+# UVM_INFO router_monitor.sv(58) @ 215000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xa | v1=0 d1=0x9e | v2=1 d2=0xee | v3=1 d3=0x7d] OUT:[v0=1 d0=0xa | v1=1 d1=0x7d]
+# UVM_INFO router_scoreboard.sv(52) @ 215000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa]
+# UVM_INFO router_scoreboard.sv(62) @ 215000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x7d]
+# UVM_INFO router_monitor.sv(58) @ 225000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x56 | v1=1 d1=0xf2 | v2=1 d2=0x1b | v3=1 d3=0x20] OUT:[v0=1 d0=0x1b | v1=1 d1=0xf2]
+# UVM_INFO router_scoreboard.sv(52) @ 225000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x1b]
+# UVM_INFO router_scoreboard.sv(62) @ 225000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xf2]
+# UVM_INFO router_monitor.sv(58) @ 235000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x4c | v1=0 d1=0x86 | v2=0 d2=0xcb | v3=1 d3=0xb3] OUT:[v0=0 d0=0xcb | v1=1 d1=0xb3]
+# UVM_INFO router_scoreboard.sv(52) @ 235000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0xcb]
+# UVM_INFO router_scoreboard.sv(62) @ 235000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xb3]
+# UVM_INFO router_monitor.sv(58) @ 245000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x76 | v1=0 d1=0xea | v2=1 d2=0x76 | v3=1 d3=0x6a] OUT:[v0=1 d0=0x76 | v1=1 d1=0x6a]
+# UVM_INFO router_scoreboard.sv(52) @ 245000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x76]
+# UVM_INFO router_scoreboard.sv(62) @ 245000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x6a]
+# UVM_INFO router_monitor.sv(58) @ 255000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xa3 | v1=0 d1=0x3e | v2=1 d2=0x2 | v3=1 d3=0xe9] OUT:[v0=1 d0=0x2 | v1=1 d1=0xe9]
+# UVM_INFO router_scoreboard.sv(52) @ 255000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x2]
+# UVM_INFO router_scoreboard.sv(62) @ 255000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xe9]
+# UVM_INFO router_monitor.sv(58) @ 265000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x9a | v1=1 d1=0x41 | v2=1 d2=0x1b | v3=1 d3=0xc9] OUT:[v0=1 d0=0x1b | v1=1 d1=0x41]
+# UVM_INFO router_scoreboard.sv(52) @ 265000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x1b]
+# UVM_INFO router_scoreboard.sv(62) @ 265000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x41]
+# UVM_INFO router_monitor.sv(58) @ 275000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x53 | v1=1 d1=0xde | v2=0 d2=0xf2 | v3=1 d3=0x86] OUT:[v0=1 d0=0x53 | v1=1 d1=0xde]
+# UVM_INFO router_scoreboard.sv(52) @ 275000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x53]
+# UVM_INFO router_scoreboard.sv(62) @ 275000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xde]
+# UVM_INFO router_monitor.sv(58) @ 285000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xd8 | v1=0 d1=0x6 | v2=1 d2=0xcd | v3=0 d3=0x25] OUT:[v0=1 d0=0xcd | v1=0 d1=0x25]
+# UVM_INFO router_scoreboard.sv(52) @ 285000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xcd]
+# UVM_INFO router_scoreboard.sv(62) @ 285000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x25]
+# UVM_INFO router_monitor.sv(58) @ 295000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xe1 | v1=1 d1=0xdf | v2=1 d2=0xf9 | v3=0 d3=0xf6] OUT:[v0=1 d0=0xe1 | v1=1 d1=0xdf]
+# UVM_INFO router_scoreboard.sv(52) @ 295000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xe1]
+# UVM_INFO router_scoreboard.sv(62) @ 295000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xdf]
+# UVM_INFO router_monitor.sv(58) @ 305000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x4e | v1=1 d1=0x77 | v2=1 d2=0xc2 | v3=1 d3=0x2f] OUT:[v0=1 d0=0x4e | v1=1 d1=0x77]
+# UVM_INFO router_scoreboard.sv(52) @ 305000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x4e]
+# UVM_INFO router_scoreboard.sv(62) @ 305000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x77]
+# UVM_INFO router_monitor.sv(58) @ 315000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x41 | v1=1 d1=0xb7 | v2=1 d2=0x42 | v3=1 d3=0xfa] OUT:[v0=1 d0=0x41 | v1=1 d1=0xb7]
+# UVM_INFO router_scoreboard.sv(52) @ 315000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x41]
+# UVM_INFO router_scoreboard.sv(62) @ 315000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xb7]
+# UVM_INFO router_monitor.sv(58) @ 325000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x15 | v1=1 d1=0x52 | v2=0 d2=0x95 | v3=1 d3=0xe2] OUT:[v0=1 d0=0x15 | v1=1 d1=0x52]
+# UVM_INFO router_scoreboard.sv(52) @ 325000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x15]
+# UVM_INFO router_scoreboard.sv(62) @ 325000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x52]
+# UVM_INFO router_monitor.sv(58) @ 335000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x4 | v1=0 d1=0x5a | v2=1 d2=0x82 | v3=0 d3=0x42] OUT:[v0=1 d0=0x82 | v1=0 d1=0x42]
+# UVM_INFO router_scoreboard.sv(52) @ 335000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x82]
+# UVM_INFO router_scoreboard.sv(62) @ 335000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x42]
+# UVM_INFO router_monitor.sv(58) @ 345000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x9c | v1=1 d1=0x5a | v2=1 d2=0x86 | v3=1 d3=0x8b] OUT:[v0=1 d0=0x9c | v1=1 d1=0x5a]
+# UVM_INFO router_scoreboard.sv(52) @ 345000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x9c]
+# UVM_INFO router_scoreboard.sv(62) @ 345000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x5a]
+# UVM_INFO router_monitor.sv(58) @ 355000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xad | v1=1 d1=0xa0 | v2=1 d2=0xda | v3=0 d3=0x8a] OUT:[v0=1 d0=0xda | v1=1 d1=0xa0]
+# UVM_INFO router_scoreboard.sv(52) @ 355000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xda]
+# UVM_INFO router_scoreboard.sv(62) @ 355000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xa0]
+# UVM_INFO router_monitor.sv(58) @ 365000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x10 | v1=0 d1=0x50 | v2=1 d2=0xc8 | v3=1 d3=0x76] OUT:[v0=1 d0=0x10 | v1=1 d1=0x76]
+# UVM_INFO router_scoreboard.sv(52) @ 365000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x10]
+# UVM_INFO router_scoreboard.sv(62) @ 365000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x76]
+# UVM_INFO router_monitor.sv(58) @ 375000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xf5 | v1=1 d1=0x4c | v2=1 d2=0xd9 | v3=1 d3=0xf7] OUT:[v0=1 d0=0xd9 | v1=1 d1=0x4c]
+# UVM_INFO router_scoreboard.sv(52) @ 375000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xd9]
+# UVM_INFO router_scoreboard.sv(62) @ 375000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x4c]
+# UVM_INFO router_monitor.sv(58) @ 385000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xb0 | v1=0 d1=0xdc | v2=1 d2=0x35 | v3=0 d3=0xad] OUT:[v0=1 d0=0xb0 | v1=0 d1=0xad]
+# UVM_INFO router_scoreboard.sv(52) @ 385000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xb0]
+# UVM_INFO router_scoreboard.sv(62) @ 385000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0xad]
+# UVM_INFO router_monitor.sv(58) @ 395000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x2a | v1=1 d1=0xe9 | v2=1 d2=0x33 | v3=1 d3=0x97] OUT:[v0=1 d0=0x33 | v1=1 d1=0xe9]
+# UVM_INFO router_scoreboard.sv(52) @ 395000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x33]
+# UVM_INFO router_scoreboard.sv(62) @ 395000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xe9]
+# UVM_INFO router_monitor.sv(58) @ 405000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x84 | v1=1 d1=0xb9 | v2=1 d2=0xb9 | v3=1 d3=0x46] OUT:[v0=1 d0=0x84 | v1=1 d1=0xb9]
+# UVM_INFO router_scoreboard.sv(52) @ 405000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x84]
+# UVM_INFO router_scoreboard.sv(62) @ 405000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xb9]
+# UVM_INFO router_monitor.sv(58) @ 415000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xe1 | v1=1 d1=0x4a | v2=1 d2=0x77 | v3=0 d3=0x80] OUT:[v0=1 d0=0xe1 | v1=1 d1=0x4a]
+# UVM_INFO router_scoreboard.sv(52) @ 415000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xe1]
+# UVM_INFO router_scoreboard.sv(62) @ 415000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x4a]
+# UVM_INFO router_monitor.sv(58) @ 425000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xe0 | v1=1 d1=0x90 | v2=0 d2=0xf9 | v3=1 d3=0xc4] OUT:[v0=0 d0=0xf9 | v1=1 d1=0x90]
+# UVM_INFO router_scoreboard.sv(52) @ 425000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0xf9]
+# UVM_INFO router_scoreboard.sv(62) @ 425000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x90]
+# UVM_INFO router_monitor.sv(58) @ 435000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x49 | v1=1 d1=0x2e | v2=1 d2=0xa2 | v3=1 d3=0x68] OUT:[v0=1 d0=0x49 | v1=1 d1=0x2e]
+# UVM_INFO router_scoreboard.sv(52) @ 435000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x49]
+# UVM_INFO router_scoreboard.sv(62) @ 435000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x2e]
+# UVM_INFO router_monitor.sv(58) @ 445000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x48 | v1=1 d1=0x87 | v2=1 d2=0xa | v3=1 d3=0x9b] OUT:[v0=1 d0=0xa | v1=1 d1=0x87]
+# UVM_INFO router_scoreboard.sv(52) @ 445000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa]
+# UVM_INFO router_scoreboard.sv(62) @ 445000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x87]
+# UVM_INFO router_monitor.sv(58) @ 455000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xf6 | v1=1 d1=0x25 | v2=1 d2=0xa5 | v3=1 d3=0xe] OUT:[v0=1 d0=0xa5 | v1=1 d1=0x25]
+# UVM_INFO router_scoreboard.sv(52) @ 455000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa5]
+# UVM_INFO router_scoreboard.sv(62) @ 455000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x25]
+# UVM_INFO router_monitor.sv(58) @ 465000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x6b | v1=1 d1=0xcf | v2=1 d2=0x8 | v3=0 d3=0x7e] OUT:[v0=1 d0=0x6b | v1=1 d1=0xcf]
+# UVM_INFO router_scoreboard.sv(52) @ 465000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x6b]
+# UVM_INFO router_scoreboard.sv(62) @ 465000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xcf]
+# UVM_INFO router_monitor.sv(58) @ 475000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x2d | v1=1 d1=0x10 | v2=0 d2=0x28 | v3=1 d3=0xa5] OUT:[v0=1 d0=0x2d | v1=1 d1=0x10]
+# UVM_INFO router_scoreboard.sv(52) @ 475000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x2d]
+# UVM_INFO router_scoreboard.sv(62) @ 475000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x10]
+# UVM_INFO router_monitor.sv(58) @ 485000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xef | v1=1 d1=0xa0 | v2=0 d2=0x40 | v3=1 d3=0x61] OUT:[v0=0 d0=0x40 | v1=1 d1=0xa0]
+# UVM_INFO router_scoreboard.sv(52) @ 485000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0x40]
+# UVM_INFO router_scoreboard.sv(62) @ 485000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xa0]
+# UVM_INFO router_monitor.sv(58) @ 495000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x95 | v1=1 d1=0x15 | v2=0 d2=0xe | v3=1 d3=0xa7] OUT:[v0=1 d0=0x95 | v1=1 d1=0x15]
+# UVM_INFO router_scoreboard.sv(52) @ 495000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x95]
+# UVM_INFO router_scoreboard.sv(62) @ 495000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x15]
+# UVM_INFO router_monitor.sv(58) @ 505000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x9 | v1=0 d1=0x5d | v2=0 d2=0x6c | v3=0 d3=0x4d] OUT:[v0=1 d0=0x9 | v1=0 d1=0x4d]
+# UVM_INFO router_scoreboard.sv(52) @ 505000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x9]
+# UVM_INFO router_scoreboard.sv(62) @ 505000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x4d]
+# UVM_INFO router_monitor.sv(58) @ 515000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xe8 | v1=1 d1=0xc2 | v2=1 d2=0x3 | v3=1 d3=0xc8] OUT:[v0=1 d0=0xe8 | v1=1 d1=0xc2]
+# UVM_INFO router_scoreboard.sv(52) @ 515000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xe8]
+# UVM_INFO router_scoreboard.sv(62) @ 515000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xc2]
+# UVM_INFO router_monitor.sv(58) @ 525000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x2 | v1=0 d1=0x52 | v2=1 d2=0x8 | v3=0 d3=0x4d] OUT:[v0=1 d0=0x2 | v1=0 d1=0x4d]
+# UVM_INFO router_scoreboard.sv(52) @ 525000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x2]
+# UVM_INFO router_scoreboard.sv(62) @ 525000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x4d]
+# UVM_INFO router_monitor.sv(58) @ 535000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xb6 | v1=1 d1=0x34 | v2=1 d2=0xaa | v3=1 d3=0xad] OUT:[v0=1 d0=0xb6 | v1=1 d1=0x34]
+# UVM_INFO router_scoreboard.sv(52) @ 535000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xb6]
+# UVM_INFO router_scoreboard.sv(62) @ 535000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x34]
+# UVM_INFO router_monitor.sv(58) @ 545000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x49 | v1=0 d1=0xc5 | v2=1 d2=0x5e | v3=0 d3=0x49] OUT:[v0=1 d0=0x49 | v1=0 d1=0x49]
+# UVM_INFO router_scoreboard.sv(52) @ 545000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x49]
+# UVM_INFO router_scoreboard.sv(62) @ 545000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x49]
+# UVM_INFO router_monitor.sv(58) @ 555000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x17 | v1=1 d1=0xc8 | v2=0 d2=0xf6 | v3=1 d3=0xe7] OUT:[v0=1 d0=0x17 | v1=1 d1=0xc8]
+# UVM_INFO router_scoreboard.sv(52) @ 555000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x17]
+# UVM_INFO router_scoreboard.sv(62) @ 555000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xc8]
+# UVM_INFO router_monitor.sv(58) @ 565000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x63 | v1=0 d1=0x27 | v2=1 d2=0x4c | v3=1 d3=0x7a] OUT:[v0=1 d0=0x4c | v1=1 d1=0x7a]
+# UVM_INFO router_scoreboard.sv(52) @ 565000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x4c]
+# UVM_INFO router_scoreboard.sv(62) @ 565000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x7a]
+# UVM_INFO router_monitor.sv(58) @ 575000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xbe | v1=0 d1=0x83 | v2=1 d2=0xbd | v3=1 d3=0xde] OUT:[v0=1 d0=0xbe | v1=1 d1=0xde]
+# UVM_INFO router_scoreboard.sv(52) @ 575000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xbe]
+# UVM_INFO router_scoreboard.sv(62) @ 575000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xde]
+# UVM_INFO router_monitor.sv(58) @ 585000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xdb | v1=1 d1=0x58 | v2=1 d2=0x9e | v3=1 d3=0xa4] OUT:[v0=1 d0=0xdb | v1=1 d1=0x58]
+# UVM_INFO router_scoreboard.sv(52) @ 585000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xdb]
+# UVM_INFO router_scoreboard.sv(62) @ 585000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x58]
+# UVM_INFO router_monitor.sv(58) @ 595000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x15 | v1=1 d1=0x36 | v2=1 d2=0xf9 | v3=1 d3=0x31] OUT:[v0=1 d0=0x15 | v1=1 d1=0x36]
+# UVM_INFO router_scoreboard.sv(52) @ 595000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x15]
+# UVM_INFO router_scoreboard.sv(62) @ 595000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x36]
+# UVM_INFO router_monitor.sv(58) @ 605000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x8 | v1=1 d1=0x6f | v2=1 d2=0x44 | v3=1 d3=0x2a] OUT:[v0=1 d0=0x44 | v1=1 d1=0x6f]
+# UVM_INFO router_scoreboard.sv(52) @ 605000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x44]
+# UVM_INFO router_scoreboard.sv(62) @ 605000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x6f]
+# UVM_INFO router_monitor.sv(58) @ 615000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x6f | v1=1 d1=0x66 | v2=1 d2=0xc8 | v3=1 d3=0xc8] OUT:[v0=1 d0=0x6f | v1=1 d1=0x66]
+# UVM_INFO router_scoreboard.sv(52) @ 615000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x6f]
+# UVM_INFO router_scoreboard.sv(62) @ 615000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x66]
+# UVM_INFO router_monitor.sv(58) @ 625000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x57 | v1=1 d1=0xf | v2=1 d2=0xa9 | v3=0 d3=0x80] OUT:[v0=1 d0=0xa9 | v1=1 d1=0xf]
+# UVM_INFO router_scoreboard.sv(52) @ 625000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa9]
+# UVM_INFO router_scoreboard.sv(62) @ 625000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xf]
+# UVM_INFO router_monitor.sv(58) @ 635000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x60 | v1=0 d1=0xf5 | v2=1 d2=0xc0 | v3=1 d3=0xd3] OUT:[v0=1 d0=0x60 | v1=1 d1=0xd3]
+# UVM_INFO router_scoreboard.sv(52) @ 635000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x60]
+# UVM_INFO router_scoreboard.sv(62) @ 635000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xd3]
+# UVM_INFO router_monitor.sv(58) @ 645000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x11 | v1=1 d1=0x2c | v2=1 d2=0x67 | v3=1 d3=0xb3] OUT:[v0=1 d0=0x11 | v1=1 d1=0x2c]
+# UVM_INFO router_scoreboard.sv(52) @ 645000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x11]
+# UVM_INFO router_scoreboard.sv(62) @ 645000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x2c]
+# UVM_INFO router_monitor.sv(58) @ 655000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xf3 | v1=1 d1=0x2c | v2=1 d2=0x84 | v3=1 d3=0x3e] OUT:[v0=1 d0=0xf3 | v1=1 d1=0x2c]
+# UVM_INFO router_scoreboard.sv(52) @ 655000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xf3]
+# UVM_INFO router_scoreboard.sv(62) @ 655000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x2c]
+# UVM_INFO router_monitor.sv(58) @ 665000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xfd | v1=1 d1=0x81 | v2=1 d2=0xf6 | v3=1 d3=0x37] OUT:[v0=1 d0=0xf6 | v1=1 d1=0x81]
+# UVM_INFO router_scoreboard.sv(52) @ 665000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xf6]
+# UVM_INFO router_scoreboard.sv(62) @ 665000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x81]
+# UVM_INFO router_monitor.sv(58) @ 675000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xb1 | v1=1 d1=0x84 | v2=1 d2=0x50 | v3=1 d3=0x2a] OUT:[v0=1 d0=0x50 | v1=1 d1=0x84]
+# UVM_INFO router_scoreboard.sv(52) @ 675000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x50]
+# UVM_INFO router_scoreboard.sv(62) @ 675000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x84]
+# UVM_INFO router_monitor.sv(58) @ 685000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xf4 | v1=0 d1=0x3e | v2=1 d2=0x72 | v3=0 d3=0x54] OUT:[v0=1 d0=0xf4 | v1=0 d1=0x54]
+# UVM_INFO router_scoreboard.sv(52) @ 685000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xf4]
+# UVM_INFO router_scoreboard.sv(62) @ 685000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x54]
+# UVM_INFO router_monitor.sv(58) @ 695000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x28 | v1=0 d1=0xbc | v2=1 d2=0x83 | v3=0 d3=0xca] OUT:[v0=1 d0=0x28 | v1=0 d1=0xca]
+# UVM_INFO router_scoreboard.sv(52) @ 695000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x28]
+# UVM_INFO router_scoreboard.sv(62) @ 695000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0xca]
+# UVM_INFO router_monitor.sv(58) @ 705000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x9 | v1=0 d1=0xf3 | v2=1 d2=0x95 | v3=1 d3=0xca] OUT:[v0=1 d0=0x95 | v1=1 d1=0xca]
+# UVM_INFO router_scoreboard.sv(52) @ 705000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x95]
+# UVM_INFO router_scoreboard.sv(62) @ 705000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xca]
+# UVM_INFO router_monitor.sv(58) @ 715000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x7c | v1=1 d1=0xa0 | v2=0 d2=0x77 | v3=1 d3=0x42] OUT:[v0=1 d0=0x7c | v1=1 d1=0xa0]
+# UVM_INFO router_scoreboard.sv(52) @ 715000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x7c]
+# UVM_INFO router_scoreboard.sv(62) @ 715000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xa0]
+# UVM_INFO router_monitor.sv(58) @ 725000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xa9 | v1=1 d1=0xd0 | v2=1 d2=0xcc | v3=0 d3=0x47] OUT:[v0=1 d0=0xa9 | v1=1 d1=0xd0]
+# UVM_INFO router_scoreboard.sv(52) @ 725000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa9]
+# UVM_INFO router_scoreboard.sv(62) @ 725000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xd0]
+# UVM_INFO router_monitor.sv(58) @ 735000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xf | v1=0 d1=0x11 | v2=1 d2=0xbc | v3=0 d3=0x1f] OUT:[v0=1 d0=0xf | v1=0 d1=0x1f]
+# UVM_INFO router_scoreboard.sv(52) @ 735000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xf]
+# UVM_INFO router_scoreboard.sv(62) @ 735000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x1f]
+# UVM_INFO router_monitor.sv(58) @ 745000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xa8 | v1=0 d1=0xad | v2=1 d2=0xe6 | v3=0 d3=0x60] OUT:[v0=1 d0=0xa8 | v1=0 d1=0x60]
+# UVM_INFO router_scoreboard.sv(52) @ 745000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa8]
+# UVM_INFO router_scoreboard.sv(62) @ 745000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x60]
+# UVM_INFO router_monitor.sv(58) @ 755000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xb9 | v1=0 d1=0xc8 | v2=0 d2=0x14 | v3=1 d3=0xfd] OUT:[v0=1 d0=0xb9 | v1=1 d1=0xfd]
+# UVM_INFO router_scoreboard.sv(52) @ 755000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xb9]
+# UVM_INFO router_scoreboard.sv(62) @ 755000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xfd]
+# UVM_INFO router_monitor.sv(58) @ 765000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xa0 | v1=1 d1=0xac | v2=1 d2=0x59 | v3=0 d3=0xb0] OUT:[v0=1 d0=0xa0 | v1=1 d1=0xac]
+# UVM_INFO router_scoreboard.sv(52) @ 765000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa0]
+# UVM_INFO router_scoreboard.sv(62) @ 765000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xac]
+# UVM_INFO router_monitor.sv(58) @ 775000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x73 | v1=1 d1=0xd8 | v2=1 d2=0x9f | v3=0 d3=0x35] OUT:[v0=1 d0=0x73 | v1=1 d1=0xd8]
+# UVM_INFO router_scoreboard.sv(52) @ 775000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x73]
+# UVM_INFO router_scoreboard.sv(62) @ 775000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xd8]
+# UVM_INFO router_monitor.sv(58) @ 785000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x51 | v1=0 d1=0x83 | v2=1 d2=0xc0 | v3=0 d3=0x9b] OUT:[v0=1 d0=0x51 | v1=0 d1=0x9b]
+# UVM_INFO router_scoreboard.sv(52) @ 785000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x51]
+# UVM_INFO router_scoreboard.sv(62) @ 785000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x9b]
+# UVM_INFO router_monitor.sv(58) @ 795000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x9b | v1=0 d1=0x99 | v2=1 d2=0xc9 | v3=1 d3=0x4d] OUT:[v0=1 d0=0xc9 | v1=1 d1=0x4d]
+# UVM_INFO router_scoreboard.sv(52) @ 795000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xc9]
+# UVM_INFO router_scoreboard.sv(62) @ 795000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x4d]
+# UVM_INFO router_monitor.sv(58) @ 805000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xeb | v1=1 d1=0xc9 | v2=1 d2=0x38 | v3=0 d3=0x78] OUT:[v0=1 d0=0x38 | v1=1 d1=0xc9]
+# UVM_INFO router_scoreboard.sv(52) @ 805000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x38]
+# UVM_INFO router_scoreboard.sv(62) @ 805000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xc9]
+# UVM_INFO router_monitor.sv(58) @ 815000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xaa | v1=0 d1=0x6e | v2=1 d2=0xfc | v3=0 d3=0x87] OUT:[v0=1 d0=0xaa | v1=0 d1=0x87]
+# UVM_INFO router_scoreboard.sv(52) @ 815000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xaa]
+# UVM_INFO router_scoreboard.sv(62) @ 815000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x87]
+# UVM_INFO router_monitor.sv(58) @ 825000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xcd | v1=1 d1=0xa | v2=0 d2=0x96 | v3=1 d3=0x3f] OUT:[v0=1 d0=0xcd | v1=1 d1=0xa]
+# UVM_INFO router_scoreboard.sv(52) @ 825000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xcd]
+# UVM_INFO router_scoreboard.sv(62) @ 825000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xa]
+# UVM_INFO router_monitor.sv(58) @ 835000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xd9 | v1=0 d1=0xbf | v2=1 d2=0x67 | v3=0 d3=0x16] OUT:[v0=1 d0=0x67 | v1=0 d1=0x16]
+# UVM_INFO router_scoreboard.sv(52) @ 835000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x67]
+# UVM_INFO router_scoreboard.sv(62) @ 835000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x16]
+# UVM_INFO router_monitor.sv(58) @ 845000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xb5 | v1=1 d1=0x1c | v2=1 d2=0x4b | v3=1 d3=0x84] OUT:[v0=1 d0=0x4b | v1=1 d1=0x1c]
+# UVM_INFO router_scoreboard.sv(52) @ 845000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x4b]
+# UVM_INFO router_scoreboard.sv(62) @ 845000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x1c]
+# UVM_INFO router_monitor.sv(58) @ 855000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xaf | v1=1 d1=0xce | v2=1 d2=0x2a | v3=1 d3=0xd0] OUT:[v0=1 d0=0xaf | v1=1 d1=0xce]
+# UVM_INFO router_scoreboard.sv(52) @ 855000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xaf]
+# UVM_INFO router_scoreboard.sv(62) @ 855000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xce]
+# UVM_INFO router_monitor.sv(58) @ 865000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x8d | v1=1 d1=0xc3 | v2=0 d2=0x1d | v3=1 d3=0x73] OUT:[v0=0 d0=0x1d | v1=1 d1=0xc3]
+# UVM_INFO router_scoreboard.sv(52) @ 865000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0x1d]
+# UVM_INFO router_scoreboard.sv(62) @ 865000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xc3]
+# UVM_INFO router_monitor.sv(58) @ 875000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xb7 | v1=1 d1=0xd1 | v2=1 d2=0xe6 | v3=1 d3=0xa2] OUT:[v0=1 d0=0xb7 | v1=1 d1=0xd1]
+# UVM_INFO router_scoreboard.sv(52) @ 875000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xb7]
+# UVM_INFO router_scoreboard.sv(62) @ 875000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xd1]
+# UVM_INFO router_monitor.sv(58) @ 885000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xea | v1=1 d1=0xe | v2=1 d2=0xe1 | v3=1 d3=0xbc] OUT:[v0=1 d0=0xe1 | v1=1 d1=0xe]
+# UVM_INFO router_scoreboard.sv(52) @ 885000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xe1]
+# UVM_INFO router_scoreboard.sv(62) @ 885000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xe]
+# UVM_INFO router_monitor.sv(58) @ 895000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xd5 | v1=1 d1=0x37 | v2=0 d2=0xe3 | v3=1 d3=0xfb] OUT:[v0=1 d0=0xd5 | v1=1 d1=0x37]
+# UVM_INFO router_scoreboard.sv(52) @ 895000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xd5]
+# UVM_INFO router_scoreboard.sv(62) @ 895000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x37]
+# UVM_INFO router_monitor.sv(58) @ 905000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xa4 | v1=0 d1=0x33 | v2=1 d2=0x3c | v3=1 d3=0xac] OUT:[v0=1 d0=0xa4 | v1=1 d1=0xac]
+# UVM_INFO router_scoreboard.sv(52) @ 905000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa4]
+# UVM_INFO router_scoreboard.sv(62) @ 905000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xac]
+# UVM_INFO router_monitor.sv(58) @ 915000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xa8 | v1=1 d1=0x4a | v2=1 d2=0x29 | v3=1 d3=0x58] OUT:[v0=1 d0=0xa8 | v1=1 d1=0x4a]
+# UVM_INFO router_scoreboard.sv(52) @ 915000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xa8]
+# UVM_INFO router_scoreboard.sv(62) @ 915000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x4a]
+# UVM_INFO router_monitor.sv(58) @ 925000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xff | v1=1 d1=0xa7 | v2=1 d2=0x8a | v3=0 d3=0x16] OUT:[v0=1 d0=0xff | v1=1 d1=0xa7]
+# UVM_INFO router_scoreboard.sv(52) @ 925000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xff]
+# UVM_INFO router_scoreboard.sv(62) @ 925000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xa7]
+# UVM_INFO router_monitor.sv(58) @ 935000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xf5 | v1=1 d1=0x20 | v2=1 d2=0x9c | v3=0 d3=0x67] OUT:[v0=1 d0=0xf5 | v1=1 d1=0x20]
+# UVM_INFO router_scoreboard.sv(52) @ 935000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xf5]
+# UVM_INFO router_scoreboard.sv(62) @ 935000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x20]
+# UVM_INFO router_monitor.sv(58) @ 945000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x7b | v1=0 d1=0xe3 | v2=0 d2=0x43 | v3=1 d3=0x47] OUT:[v0=1 d0=0x7b | v1=1 d1=0x47]
+# UVM_INFO router_scoreboard.sv(52) @ 945000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x7b]
+# UVM_INFO router_scoreboard.sv(62) @ 945000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x47]
+# UVM_INFO router_monitor.sv(58) @ 955000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x39 | v1=0 d1=0xc7 | v2=0 d2=0x6f | v3=1 d3=0x29] OUT:[v0=0 d0=0x6f | v1=1 d1=0x29]
+# UVM_INFO router_scoreboard.sv(52) @ 955000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=0 d=0x6f]
+# UVM_INFO router_scoreboard.sv(62) @ 955000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x29]
+# UVM_INFO router_monitor.sv(58) @ 965000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x93 | v1=1 d1=0x16 | v2=1 d2=0xf0 | v3=0 d3=0xa1] OUT:[v0=1 d0=0xf0 | v1=1 d1=0x16]
+# UVM_INFO router_scoreboard.sv(52) @ 965000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xf0]
+# UVM_INFO router_scoreboard.sv(62) @ 965000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x16]
+# UVM_INFO router_monitor.sv(58) @ 975000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x63 | v1=1 d1=0x49 | v2=1 d2=0x78 | v3=1 d3=0xe] OUT:[v0=1 d0=0x63 | v1=1 d1=0x49]
+# UVM_INFO router_scoreboard.sv(52) @ 975000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x63]
+# UVM_INFO router_scoreboard.sv(62) @ 975000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x49]
+# UVM_INFO router_monitor.sv(58) @ 985000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x5f | v1=0 d1=0x29 | v2=1 d2=0x3f | v3=0 d3=0x65] OUT:[v0=1 d0=0x5f | v1=0 d1=0x65]
+# UVM_INFO router_scoreboard.sv(52) @ 985000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5f]
+# UVM_INFO router_scoreboard.sv(62) @ 985000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x65]
+# UVM_INFO router_monitor.sv(58) @ 995000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x80 | v1=0 d1=0xa7 | v2=1 d2=0x22 | v3=0 d3=0xc] OUT:[v0=1 d0=0x80 | v1=0 d1=0xc]
+# UVM_INFO router_scoreboard.sv(52) @ 995000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x80]
+# UVM_INFO router_scoreboard.sv(62) @ 995000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0xc]
+# UVM_INFO router_monitor.sv(58) @ 1005000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x14 | v1=1 d1=0x73 | v2=1 d2=0x41 | v3=0 d3=0xc] OUT:[v0=1 d0=0x41 | v1=1 d1=0x73]
+# UVM_INFO router_scoreboard.sv(52) @ 1005000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x41]
+# UVM_INFO router_scoreboard.sv(62) @ 1005000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x73]
+# UVM_INFO router_monitor.sv(58) @ 1015000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xce | v1=0 d1=0xfd | v2=0 d2=0xde | v3=0 d3=0x93] OUT:[v0=1 d0=0xce | v1=0 d1=0x93]
+# UVM_INFO router_scoreboard.sv(52) @ 1015000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xce]
+# UVM_INFO router_scoreboard.sv(62) @ 1015000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x93]
+# UVM_INFO router_monitor.sv(58) @ 1025000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x99 | v1=0 d1=0x9a | v2=1 d2=0x82 | v3=1 d3=0x55] OUT:[v0=1 d0=0x99 | v1=1 d1=0x55]
+# UVM_INFO router_scoreboard.sv(52) @ 1025000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x99]
+# UVM_INFO router_scoreboard.sv(62) @ 1025000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x55]
+# UVM_INFO router_monitor.sv(58) @ 1035000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xfb | v1=1 d1=0x90 | v2=1 d2=0x9b | v3=1 d3=0xfa] OUT:[v0=1 d0=0xfb | v1=1 d1=0x90]
+# UVM_INFO router_scoreboard.sv(52) @ 1035000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xfb]
+# UVM_INFO router_scoreboard.sv(62) @ 1035000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x90]
+# UVM_INFO router_monitor.sv(58) @ 1045000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0xab | v1=1 d1=0x9 | v2=1 d2=0xa7 | v3=1 d3=0x4e] OUT:[v0=1 d0=0xab | v1=1 d1=0x9]
+# UVM_INFO router_scoreboard.sv(52) @ 1045000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xab]
+# UVM_INFO router_scoreboard.sv(62) @ 1045000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x9]
+# UVM_INFO router_monitor.sv(58) @ 1055000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x9 | v1=0 d1=0xf7 | v2=1 d2=0x88 | v3=0 d3=0x94] OUT:[v0=1 d0=0x9 | v1=0 d1=0x94]
+# UVM_INFO router_scoreboard.sv(52) @ 1055000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x9]
+# UVM_INFO router_scoreboard.sv(62) @ 1055000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0x94]
+# UVM_INFO router_monitor.sv(58) @ 1065000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0xaa | v1=1 d1=0xb6 | v2=1 d2=0xae | v3=1 d3=0x6e] OUT:[v0=1 d0=0xae | v1=1 d1=0xb6]
+# UVM_INFO router_scoreboard.sv(52) @ 1065000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0xae]
+# UVM_INFO router_scoreboard.sv(62) @ 1065000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0xb6]
+# UVM_INFO router_monitor.sv(58) @ 1075000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x2d | v1=1 d1=0x54 | v2=1 d2=0x41 | v3=1 d3=0x11] OUT:[v0=1 d0=0x41 | v1=1 d1=0x54]
+# UVM_INFO router_scoreboard.sv(52) @ 1075000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x41]
+# UVM_INFO router_scoreboard.sv(62) @ 1075000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x54]
+# UVM_INFO router_monitor.sv(58) @ 1085000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x1b | v1=1 d1=0x96 | v2=1 d2=0x17 | v3=1 d3=0x44] OUT:[v0=1 d0=0x1b | v1=1 d1=0x96]
+# UVM_INFO router_scoreboard.sv(52) @ 1085000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x1b]
+# UVM_INFO router_scoreboard.sv(62) @ 1085000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x96]
+# UVM_INFO router_monitor.sv(58) @ 1095000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x2b | v1=0 d1=0xca | v2=1 d2=0x4e | v3=0 d3=0xc0] OUT:[v0=1 d0=0x2b | v1=0 d1=0xc0]
+# UVM_INFO router_scoreboard.sv(52) @ 1095000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x2b]
+# UVM_INFO router_scoreboard.sv(62) @ 1095000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=0 d=0xc0]
+# UVM_INFO router_monitor.sv(58) @ 1105000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=1 d0=0x49 | v1=0 d1=0x8c | v2=0 d2=0x79 | v3=1 d3=0x5f] OUT:[v0=1 d0=0x49 | v1=1 d1=0x5f]
+# UVM_INFO router_scoreboard.sv(52) @ 1105000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x49]
+# UVM_INFO router_scoreboard.sv(62) @ 1105000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x5f]
+# UVM_INFO router_monitor.sv(58) @ 1115000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1115000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1115000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_sequence.sv(65) @ 1115000: uvm_test_top.env.agent.sequencer@@seq [router_random_sequence] Finished router_random_sequence execution
+# UVM_INFO router_monitor.sv(58) @ 1125000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1125000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1125000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1135000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1135000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1135000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1145000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1145000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1145000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1155000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1155000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1155000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1165000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1165000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1165000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1175000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1175000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1175000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1185000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1185000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1185000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1195000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1195000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1195000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO router_monitor.sv(58) @ 1205000: uvm_test_top.env.agent.monitor [router_monitor] Sampled Item: IN:[v0=0 d0=0x7f | v1=1 d1=0x86 | v2=1 d2=0x5a | v3=1 d3=0x5b] OUT:[v0=1 d0=0x5a | v1=1 d1=0x86]
+# UVM_INFO router_scoreboard.sv(52) @ 1205000: uvm_test_top.env.sb [router_scoreboard] MATCH Out0! Act:[v=1 d=0x5a]
+# UVM_INFO router_scoreboard.sv(62) @ 1205000: uvm_test_top.env.sb [router_scoreboard] MATCH Out1! Act:[v=1 d=0x86]
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1243) @ 1215000: reporter [TEST_DONE] All end-of-test objections have been dropped. Calling stop tasks
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 1215000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO router_coverage.sv(87) @ 1215000: uvm_test_top.env.cov [router_coverage] FUNCTIONAL COVERAGE: 100.00%
+# UVM_INFO router_scoreboard.sv(68) @ 1215000: uvm_test_top.env.sb [router_scoreboard] SCOREBOARD RESULT: PASS=236  FAIL=0
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  411
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [PHASESEQ]    13
+# [Questa UVM]     3
+# [RNTST]     1
+# [TEST_DONE]     2
+# [router_agent]     5
+# [router_coverage]     5
+# [router_driver]     4
+# [router_env]     4
+# [router_monitor]   122
+# [router_random_sequence]     2
+# [router_scoreboard]   241
+# [router_sequencer]     4
+# [router_test]     5
+# ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 1215 ns  Iteration: 54  Instance: /top
+# Break in Task std/mailbox::get at C:/questasim64_2021.1/win64/../verilog_src/std/std.sv line 41
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (E:/courses/Digital Verification Course/system verilog assignments/Assignment 5/UVM_1st_Assignment.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (E:/courses/Digital Verification Course/system verilog assignments/Assignment 5/UVM_1st_Assignment.mpf).  File can not be renamed.
+# End time: 13:52:44 on Aug 26,2026, Elapsed time: 0:00:13
+# Errors: 2, Warnings: 1
+# =====================================================================
+# All 4 UVM Verbosity Runs Completed Successfully!
+# =====================================================================
